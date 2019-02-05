@@ -1,0 +1,227 @@
+* { padding: 0; margin: 0;  font-family: helvetica, sans-serif;}
+html { overflow-x: hidden;}
+body { background-color: 	#FFFAFA; }
+.LightSwitchClass span {
+  margin-top: 18px;
+  margin-left: 19px;
+}
+.LightSwitchClass:hover {
+  background-color: black;
+  color: white;
+}
+.LightSwitchClass {
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  border: 2px solid black;
+  width:50px;
+  height:50px;
+  float: left;
+  margin-top: 28px;
+  margin-left: 50px;
+}
+
+#Footer {
+  background-color: #222222;
+  height: 50px;
+  width: 100%;
+  position:fixed;
+  bottom: 0;
+  left:0;
+  color: white;
+  display: none;
+}
+#ContactInfo {
+  margin-top: 22px;
+  display: inline-block;
+  float: left;
+  margin-left: 40px;
+}
+#Links {
+  margin-top: 22px;
+  margin-right: 40px;
+  text-decoration: none;
+  color: white !important;
+  text-decoration-line: none;
+  display: inline-block;
+  float: right;
+}
+
+
+.MainContentClass {
+  min-width: 250px;
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: auto;
+  width: 80vw;
+  margin-left: 10vw;
+  border-radius: 5vh;
+  display: inline-block;
+}
+
+.MainContentText{
+  min-width: 250px;
+  height: auto;
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.MainContentClass:first-child {
+}
+
+.MainContentClass img{
+  border-radius: 15%;
+  display: inline-block;
+  height: 30vh;
+  min-height: 10vh;
+  max-height: 30vh;
+  float: left;
+
+}
+
+.MainContentClass h1{
+  padding-left: 35px;
+  padding-bottom: 5px;
+  margin-top: 7vh;
+}
+.MainContentBoxClass {
+  font-size:1vmax;
+  min-width: 250px;
+  height: auto;
+  float:right;
+  display: inline-block;
+  width: 40vw;
+  max-width: 55vw;
+  height:auto;
+}
+
+.MainContentClass p {
+  max-width: 50vw;
+}
+
+#Banner {
+  height: 30vh;
+  width: 80vw;
+  min-height: 200px;
+  margin-left: 10vw;
+  top: 150px;
+  margin-bottom: 150px;
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+}
+#slider {
+  overflow: hidden;
+  z-index: 10;
+}
+.BackgroundImage {
+  position: absolute;
+  z-index: -1;
+}
+#ImgOne {
+}
+#BannerId {
+  z-index: 1;
+  position: absolute;
+  margin-top: 14vh;
+  margin-left: 14vw;
+  color: #eeeeee;
+  font-size: 3vmax;
+}
+
+
+.HeaderClass {
+  border-radius: 10%!important;
+  width: 80vw;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  margin-left: 10vw;
+  background-image: url(../img/pipes.png);
+  background-repeat: repeat;
+  z-index: 11;
+}
+#HeaderDark {
+  background-image: url(../img/crissXcross.png);
+  background-repeat: repeat;
+  z-index: 10;
+  color: white !important;
+
+}
+#LightSwitchDark:hover {
+  color: white;
+  background-color: black;
+  border-color: white;
+}
+
+#LightSwitchDark {
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+
+#Nav_ContainerDark {
+  display: none;
+}
+#Title_TextDark {
+  color: white !important;
+}
+.TitleClass {
+  color:black;
+  font-size: 24px;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  margin-top: 10px;
+  margin-left: 50px;
+  text-decoration: none;
+}
+.Title_TextClass {
+  color:black;
+  font-size: 3vmax;
+  text-decoration: none;
+}
+.HamburgerClass {
+  display: none;
+}
+.Nav_ContainerClass{
+  display: none;
+}
+.NavClass {
+  height: 30vmax;
+  width: auto;
+  display: inline-block;
+  float: right;
+  z-index: 11;
+}
+.NavClass a:hover {
+  border-bottom: 4px solid black;
+  background-color: rgba(205,205,205,1);
+}
+.NavClass a {
+  transition: all 0.3s ease;
+  display: inline-block;
+  height: 90px;
+  background-color: rgba(255,255,255,0.75);
+  padding-left: 3vw;
+  padding-right: 3vw;
+
+  text-decoration: none;
+  color: white;
+}
+.NavClass a li p {
+  text-align:center;
+  color: black;
+  padding-top: 3.5vh;
+}
+.NavClass a li {
+  display: inline-block;
+  list-style: none;
+}
+
+.EndBorderRadius {
+  border-top-right-radius: 20%!important;
+  border-bottom-right-radius: 20%!important;
+}

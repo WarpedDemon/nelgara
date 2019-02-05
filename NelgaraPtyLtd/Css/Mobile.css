@@ -1,0 +1,67 @@
+@media only screen and (max-width: 1528px) {
+
+  .MainContentBoxClass {
+    float: left;
+  }
+  .NavClass {
+    cursor: pointer;
+    display: none;
+    background-color: #222222;
+    height: auto;
+    color: white;
+    opacity: 1;
+  }
+
+  .NavClass a{
+    display: block;
+    z-index: 11;
+    height: 30px;
+  }
+
+  .NavClass a li b p {
+    padding-top: 8px;
+  }
+
+  .NavClass a li {
+    z-index: 11;
+
+  }
+
+  .Nav_ContainerClass{
+    display: inline-block;
+    float: right;
+    width: 36px;
+    height: 36px;
+    vertical-align: middle;
+    margin-right: 50px;
+    margin-top: 2.5vh;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+  .HamburgerClass {
+    display: block !important;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+  }
+
+  #Nav_ContainerDark {
+    display: block;
+  }
+
+  #HamburgerDark {
+    display: block;
+  }
+  #LightSwitchDark {
+    cursor: pointer;
+  }
+
+  .EndBorderRadius {
+    border-top-right-radius: 0%!important;
+    border-bottom-right-radius: 0%!important;
+  }
+}
